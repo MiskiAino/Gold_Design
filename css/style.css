@@ -1,0 +1,263 @@
+*{
+    font-family: Arial;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: #222222;
+}
+.clearfix:after{
+    content: ' ';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+div{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    top: 20px;
+    background: url("../img/Background-Image1.jpg") no-repeat center top / cover;
+    height: 100vh;
+}
+.container{
+    width: 930px;
+    margin: 0 auto;
+}
+.logo{
+    margin-top: 42px;
+    float: left;
+}
+nav{
+    float:right;
+    margin-top: 45px;
+}
+.menu{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.menu li{
+    float: left;
+    display: block;
+    margin-right: 41px;
+}
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.titles__first{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-top: 215px;
+}
+h1{
+    font-size: 75px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+}
+.button{
+    background: #fed136;
+    color: #484543;
+    border-radius: 6px;
+    display: block;
+    width: 240px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.title{
+    padding-top: 115px;
+}
+.title h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+.title p{
+    color: #777;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.services{
+    margin-top: 80px;
+}
+.services__item{
+    width: 270px;
+    float: left;
+    text-align: center;
+}
+.services__item h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.services__item p{
+    color: #777;
+    font-size: 14px;
+}
+.services__item:last-child{
+    float: right;
+}
+.services__item:nth-child(2){
+    margin-left: 60px;
+}
+#services{
+    padding-bottom: 120px;
+}
+#portfolio{
+    background: #f7f7f7;
+}
+.works img{
+    float: left;
+    margin: 0;
+    border: solid #fed136 2px;
+}
+.works{
+    margin-top: 80px;
+    padding-bottom: 120px;
+}
+.works img:nth-child(2){
+    margin-left: 25px;
+}
+.works img:last-child{
+    float: right;
+}
+.aboutUs{
+    margin-top: 80px;
+}
+.imgcenter{
+    text-align: center;
+}
+.terra{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    box-shadow: 0 0 0 9px #f1f1f1;
+
+}
+.textAboutRight{
+    float: right;
+    text-align: left;
+    padding-left:0 ;
+}
+.textAbout{
+    float: left;
+    text-align: right;
+}
+.aboutUs h4{
+    font-size: 18px;
+}
+.aboutUs h3{
+    font-size: 16px;
+    color: #777777;
+}
+.padd{
+    margin-bottom: 120px;
+}
+#contacts{
+    background: #f7f7f7;
+    height: 700px;
+    padding-bottom:120px;
+}
+.contacts img{
+    float: left;
+    margin: 0 0 20px 0;
+}
+.contacts{
+    margin-left: 120px;
+    margin-top: 80px;
+    padding-bottom: 120px;
+}
+.contacts img:nth-child(2){
+    margin-left: 25px;
+}
+.contacts img:last-child{
+    float: right;
+}
+.human{
+    float: left;
+    margin-left: 30px;
+}
+.name{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 0;
+    font-family:  Arial;
+}
+.role{
+    margin-top:0;
+    text-align: center;
+    font-size: 14px;
+    color: #777777;
+    font-family: regular Arial;
+}
+.soc{
+    margin-right:47px ;
+}
+p{
+    text-align: center;
+    font-size: 12px;
+    color:#777;
+}
+.socimg{
+    width: 27px;
+    height: 27px;
+}
+footer{
+    background: url("../img/Footer-Background.png");
+    height: 700px;
+}
+input{
+    height:60px;
+    width:420px;
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-color: #fed136;
+}
+.input{
+    float: left;
+}
+textarea{
+    margin-left: 50px;
+    height:217px ;
+    width: 400px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: #fed136;
+    border-width: 2px;
+}
+.click{
+    background: #fed136;
+    color: #484543;
+    border-radius: 6px;
+    display: block;
+    width: 240px;
+    padding: 20px 0;
+    margin: 0 auto;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 2px;
+}
+
